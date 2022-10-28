@@ -9,6 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbViewer.Shared", "DbViewer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbViewer.Hub.Tests", "DbViewer.Hub.Tests\DbViewer.Hub.Tests.csproj", "{FEA02697-3069-4442-AB45-A49813DCD095}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{49B01F7E-7335-433D-BEAD-B4622A578797}"
+	ProjectSection(SolutionItems) = preProject
+		Hub.Dockerfile = Hub.Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
